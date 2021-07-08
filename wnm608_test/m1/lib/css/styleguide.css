@@ -1,0 +1,80 @@
+
+/* CSS RESET */
+
+*, *::after, *::before {
+   box-sizing:border-box;
+}
+
+ :root{
+  --color-neutral-light:#eee;
+  --color-neutral-medium:#999;
+  --color-neutral-dark:#555;
+
+  --header-height:3rem;
+  --spacing:1rem;
+}
+
+body {
+  margin:0;
+  font-size:100%;
+  font-family:Helvetica,Arial,sans-serif;
+  }
+
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6{
+  font-family:Georia,"Times new Roman", serif;
+  }
+a {
+  color:inherit;
+  font-weight:bold;
+  text-decoration:none;
+}  
+
+a:hover {
+  text-decoration: underline;
+}
+
+.topnav{
+  backgroun-color:#333;
+  overflow:hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover{
+  backgroun-color:#ddd;
+  color:black;
+}
+
+.topnav a.active{
+  background-color:#04AA6D;
+  color:white;
+}
+
+.container{
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.display-flex{
+ display: flex;
+}
+
+.flex-stretch{
+    flex: 1 1 auto;
+}
+.flex-none{
+  flex:none;
+}
