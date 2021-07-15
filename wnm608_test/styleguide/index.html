@@ -1,0 +1,322 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>CSS Styleguide</title>
+    <link rel="stylesheet" href="lib/css/styleguide.css">
+    <link rel="stylesheet" href="css/storetheme.css">
+    <link rel="stylesheet" href="lib/css/gridsystem.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container display-flex">
+            <div class="display-none">
+                <h1>Style Guide</h1>
+            </div>
+
+
+            <div class="flex-stretch"></div>
+            <div class="flex-none nav">
+                <ul class="container display-flex">
+                    <li><a href="#tableofcontents">Table of Contents</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" id="tableofcontents">
+        <h3>Table of Contents</h3>
+        <div class=" card">
+            <nav class="nav">
+                <ul>
+                    <li><a href="#typography">Typography</a></li>
+                    <ul>
+                        <li><a href="#headings">Headings</a></li>
+                        <li><a href="#paragraphs">Paragraphs</a></li>
+                    </ul>
+                    <li><a href="#colors">Colors</a></li>
+                    <li><a href="#buttons">Buttons</a></li>
+                    <li><a href="#forms">Forms</a></li>
+                    <li><a href="#interactive-elements">Interactive Elements</a></li>
+                    <li><a href="#cards">Cards</a></li>
+                    <li><a href="#navigation">Navigation</a></li>
+                    <li><a href="#gridsystem">Grid System</a></li>
+                    <li><a href="#flexsystem">Flex System</a></li>
+                    <li><a href="#figure">Figures</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="container " id="typography">
+        <h2>Typography</h2>
+        <div class="card soft" id="headings">
+            <h3> Headings</h3>
+            <hr size="1px" width="100%" color="#f1f1f1">
+            <div class="card soft">
+                <div class="h1-style"> Heading 1: Arial, Regular,2.5em</div>
+                <div class="h2-style">Heading 2: Arial, Bold, 2em</div>
+                <div class="h3-style">body text: Lucida Console, Regular, 1em</div>
+
+            </div>
+            <div class="card soft" id="paragraphs">
+                <h3> Paragraphs</h3>
+                <hr size="1px" width="100%" color="#f1f1f1">
+                <p>Paraph: Lucida Console, Regular, 1em</p>
+                <p>When Spider-Man first appeared in the early 1960s, teenagers in superhero comic books were usually
+                    relegated to the role of sidekick to the protagonist. The Spider-Man series broke ground by
+                    featuring Peter Parker,
+                    a high school student from Queens behind Spider-Man's secret identity and with whose
+                    "self-obsessions with rejection, inadequacy, and loneliness" young readers could relate.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="colors">
+        <h2> Colors</h2>
+        <div class="card soft color">
+            <h3>Primary Colors</h3>
+            <hr size="1px" width="100%" color="#f1f1f1">
+            <div class="grid">
+                <div class="col-xs-12 col-md-4 pink">#ffbdad </div>
+                <div class="col-xs-12 col-md-4 medium-pink"> #ffc8ad</div>
+                <div class="col-xs-12 col-md-4 light-pink"> #ffe6ad</div>
+            </div>
+            <h3>Secondary Colors</h3>
+            <hr size="1px" width="100%" color="#f1f1f1">
+            <div class="grid">
+                <div class="col-xs-12 col-md-4 blue">#0040ff </div>
+                <div class="col-xs-12 col-md-4 medium-blue">#2b59e3 </div>
+                <div class="col-xs-12 col-md-4 light-blue"> #03c2fc</div>
+            </div>
+            <h3>Neutral Colors</h3>
+            <hr size="1px" width="100%" color="#f1f1f1">
+            <div class="grid">
+                <div class="col-xs-12 col-md-4 red"> #ff0000</div>
+                <div class="col-xs-12 col-md-4 medium-red">#f52222 </div>
+                <div class="col-xs-12 col-md-4 light-red"> #e04c4c</div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="container" id="buttons">
+        <h2>Buttons</h2>
+        <div class="card soft ">
+            <h3>Primary Buttons</h3>
+            <hr size="1px" width="100%" color="#f1f1f1">
+            <div class="btn-box">
+                <button class="btn-style-1 btn-1">Button 1</button>
+            </div>
+            <h3>Secondary Buttons</h3>
+            <hr size="1px" width="100%" color="#f1f1f1">
+            <div class="btn-box">
+                <button class="btn-style-2 btn-2">Button 2</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="container" id="Forms">
+        <h2>Forms</h2>
+        <div class="card soft ">
+            <form>
+                <div class="form-control">
+                    <label class="form-label">Shipping Address</label>
+                    <input type="text" placeholder="Shipping Address" class="form-input">
+                </div>
+                <div class="form-control">
+                    <label class="form-label">Zip Code</label>
+                    <input type="text" placeholder="Zip Code" class="form-input">
+                </div>
+                <div class="form-control">
+                    <label class="form-label">Password</label>
+                    <input type="password" placeholder="Password" class="form-input">
+                </div>
+
+            </form>
+        </div>
+
+
+
+
+        <div class="container" id="interactive-elements">
+            <h2>Interactive Elements</h2>
+            <div class="card soft ">
+                <h3>Check Box</h3>
+                <hr size="1px" width="100%" color="#f1f1f1">
+                <div class="checkbox">
+                    <label for="input-1"><input type="checkbox" id="input-1">Option 1</label>
+                    <label for="input-2"><input type="checkbox" id="input-2">Option 2</label>
+                    <label for="input-3"><input type="checkbox" id="input-3">Option 3</label>
+                </div>
+                <h3>Search Box</h3>
+                <hr size="1px" width="100%" color="#f1f1f1">
+                <form class="searchbar">
+                    <i class="fa fa-search"></i>
+                    <input type="search" placeholder="Item Name">
+                </form>
+
+                <h3>Toggle</h3>
+                <hr size="1px" width="100%" color="#f1f1f1">
+                <div class="toggle">
+                    <input type="checkbox" id="toggle_1" class="hidden">
+                    <label for="toggle_1"></label>
+                </div>
+
+                <h3>Select</h3>
+                <hr size="1px" width="100%" color="#f1f1f1">
+                <div class="form-select">
+                    <select>
+                        <option>Choice A</option>
+                        <option>Choice B</option>
+                        <option>Choice C</option>
+                        <option>Choice D</option>
+                    </select>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="container" id="cards">
+        <h2>Cards</h2>
+        <div class="card soft ">
+            <div class="grid gap">
+                <div class="col-md-4 col-xs-12">
+                    <div class="card soft">Card Soft</div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="card hard">Card Hard</div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="card dark">Card Dark</div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <div class="container" id="navigation">
+        <h2>Navigation</h2>
+        <div class="card soft">
+            <h3>Nav 1</h3>
+            <hr size="1px" width="100%" color="#f1f1f1">
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">test 1 </a></li>
+                    <li><a href="#">test 2 </a></li>
+                    <li><a href="#">test 3 </a></li>
+                </ul>
+            </nav>
+            <h3>Nav 2</h3>
+            <hr size="1px" width="100%" color="#f1f1f1">
+            <nav class="nav-stretch">
+                <ul>
+                    <li><a href="#">test 1 </a></li>
+                    <li><a href="#">test 2 </a></li>
+                    <li><a href="#">test 3 </a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container" id="gridsystem">
+        <h2>Grid System</h2>
+        <div class="card soft">
+            <h3>Grids</h3>
+            <div class="grid gap xs-small md-medium">
+                <div class="col-xs-6 col-md-3">
+                    <div class="card soft">
+                        <img src="img/iron.jpg" class="md-img">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="card soft">
+                        <img src="img/iron.jpg" class="md-img">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="card soft">
+                        <img src="img/iron.jpg" class="md-img">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="card soft">
+                        <img src="img/iron.jpg" class="md-img">
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        </div>
+
+
+            <div class="container" id="figure">
+                <h2>Figure</h2>
+                <div class="card soft">
+                    <div class="grid gap ">
+                        <div class="col-xs-6 col-md-3">
+                            <figure class="figure ">
+                                <img src="img/iron.jpg" class="md-img">
+                                <figcaption>
+                                    <div>Iron man</div>
+                                    <div>$9.99</div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <figure class="figure ">
+                                <img src="img/iron.jpg" class="md-img">
+                                <figcaption>
+                                    <div>Iron man</div>
+                                    <div>$9.99</div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    
+                    <div class="col-xs-6 col-md-3">
+                        <figure class="figure ">
+                            <img src="img/iron.jpg" class="md-img">
+                            <figcaption>
+                                <div>Iron man</div>
+                                <div>$9.99</div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <figure class="figure ">
+                            <img src="img/iron.jpg" class="md-img">
+                            <figcaption>
+                                <div>Iron man</div>
+                                <div>$9.99</div>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+    </div>
+</body>
+
+
+
+
+
+</html>
