@@ -16,7 +16,7 @@
 		<div class="page-container">
 			<div class="display-flex flex-wrap">	
 				<div class="product-img-container">	
-					<img src="img/img-1.jpg" class="product-img" alt="">
+					<img src="img/<?=$_GET['thumbnail']; ?>" class="product-img" alt="">
 				</div>
 
 				<div class="product-description-container">
