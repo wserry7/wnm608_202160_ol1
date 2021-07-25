@@ -44,18 +44,18 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `price`, `quantity`, `menu_category`, `thumbnail`, `discount_percentage`, `date_created`) VALUES
-(1, 'Special Mango Juice Sago & Pomelo w.Mango Ice Crea', 7.45, 199, 'Classic Fre Fruit Dessert', 'Special_Mango_Juice_Sago_Pomelo_w_Mango_Ice_Cream.', 5.9, '2021-07-21 23:04:21'),
-(2, 'Snow White Mango Juice w.Sago & Pomelo', 6.45, 216, 'Classic Fre Fruit Dessert', 'Snow_White_Mango_Juice_w_Sago_Pomelo.png', 5.5, '2021-07-21 23:04:21'),
-(3, 'Mango Juice w.Glutinous Rice Ball', 6.95, 146, 'Classic Fre Fruit Dessert', 'Mango_Juice_w_Glutinous_Rice_Ball.png', 2.5, '2021-07-21 23:04:21'),
-(4, 'Mango Juice w.Watermelon & Rice Ball', 6.95, 132, 'Classic Fre Fruit Dessert', 'Mango_Juice_w_Watermelon_Rice_Ball.png', 9.5, '2021-07-21 23:04:21'),
-(5, 'Snow white juice W. Durian and black rice', 8.45, 71, 'Black Glutinous Rice', 'Snow_white_juice_W_Durian_and_black_rice.png', 7.3, '2021-07-21 23:04:21'),
-(6, 'Snow White Juice w.Mango and Black Rice', 7.45, 89, 'Black Glutinous Rice', 'Snow_White_Juice_w_Mango_and_Black_Rice.png', 6.8, '2021-07-21 23:04:21'),
-(7, 'Triple Ice Cream Delight', 6.45, 85, 'Ice Cream Sundae', 'Triple_Ice_Cream_Delight.png', 8.5, '2021-07-21 23:04:21'),
-(8, 'Mango Sundae', 6.95, 97, 'Ice Cream Sundae', 'Mango_Sundae.png', 15, '2021-07-21 23:04:21'),
-(9, 'Snow White Juice w.Ice Cream', 6.95, 34, 'Fresh Fruit Sago Soup', 'Snow_White_Juice_w_Ice_Cream.png', 10, '2021-07-21 23:04:21'),
-(10, 'Mixed Fresh Fruit w.Basil Seed', 7.45, 345, 'Fresh Fruit Sago Soup', 'Mixed_Fresh_Fruit_w_Basil_Seed.png', 2.4, '2021-07-21 23:04:21'),
-(11, 'Brown Suger Lemon Kumquat', 5.5, 69, 'Healthy Scented Tea', 'Brown_Suger_Lemon_Kumquat.png', 5.9, '2021-07-21 23:04:21'),
-(12, 'Mango Agar', 5, 64, 'Healthy Scented Tea', 'Mango_Agar.png', 1.1, '2021-07-21 23:04:21');
+(1, 'Special Mango Juice Sago & Pomelo w.Mango Ice Crea', 7.45, 199, 'Classic Fre Fruit Dessert', 'img-1.jpg', 5.9, '2021-07-21 23:04:21'),
+(2, 'Snow White Mango Juice w.Sago & Pomelo', 6.45, 216, 'Classic Fre Fruit Dessert', '1.png', 5.5, '2021-07-21 23:04:21'),
+(3, 'Mango Juice w.Glutinous Rice Ball', 6.95, 146, 'Classic Fre Fruit Dessert', '2.png', 2.5, '2021-07-21 23:04:21'),
+(4, 'Mango Juice w.Watermelon & Rice Ball', 6.95, 132, 'Classic Fre Fruit Dessert', '3.png', 9.5, '2021-07-21 23:04:21'),
+(5, 'Snow white juice W. Durian and black rice', 8.45, 71, 'Black Glutinous Rice', '4.png', 7.3, '2021-07-21 23:04:21'),
+(6, 'Snow White Juice w.Mango and Black Rice', 7.45, 89, 'Black Glutinous Rice', '5.png', 6.8, '2021-07-21 23:04:21'),
+(7, 'Triple Ice Cream Delight', 6.45, 85, 'Ice Cream Sundae', '6.png', 8.5, '2021-07-21 23:04:21'),
+(8, 'Mango Sundae', 6.95, 97, 'Ice Cream Sundae', '7.png', 15, '2021-07-21 23:04:21'),
+(9, 'Snow White Juice w.Ice Cream', 6.95, 34, 'Fresh Fruit Sago Soup', '8.png', 10, '2021-07-21 23:04:21'),
+(10, 'Mixed Fresh Fruit w.Basil Seed', 7.45, 345, 'Fresh Fruit Sago Soup', '9.png', 2.4, '2021-07-21 23:04:21'),
+(11, 'Brown Suger Lemon Kumquat', 5.5, 69, 'Healthy Scented Tea', '10.png', 5.9, '2021-07-21 23:04:21'),
+(12, 'Mango Agar', 5, 64, 'Healthy Scented Tea', '11.png', 1.1, '2021-07-21 23:04:21');
 
 --
 -- Indexes for dumped tables
