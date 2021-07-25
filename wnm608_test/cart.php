@@ -23,11 +23,11 @@
 							</figure>
 
 							<div class="checkout-detail-text">
-								Product 1
+								Special Mango Juice Sago & Pomelo w.Mango Ice Crea
 							</div>
 
 							<div class="checkout-detail-text">
-								$9.99
+								$7.45
 							</div>
 
 							<div class="checkout-detail-text">
@@ -46,11 +46,11 @@
 							</figure>
 
 							<div class="checkout-detail-text">
-								Product 2
+								Snow White Mango Juice w.Sago & Pomelo
 							</div>
 
 							<div class="checkout-detail-text">
-								$9.99
+								$6.45
 							</div>
 
 							<div class="checkout-detail-text">
@@ -69,11 +69,11 @@
 							</figure>
 
 							<div class="checkout-detail-text">
-								Product 3
+								Mango Juice w.Glutinous Rice Ball
 							</div>
 
 							<div class="checkout-detail-text">
-								$9.99
+								$6.95
 							</div>
 
 							<div class="checkout-detail-text">
@@ -92,11 +92,11 @@
 							</figure>
 
 							<div class="checkout-detail-text">
-								Product 4
+								Mango Juice w.Watermelon & Rice Ball
 							</div>
 
 							<div class="checkout-detail-text">
-								$9.99
+								$6.95
 							</div>
 
 							<div class="checkout-detail-text">
