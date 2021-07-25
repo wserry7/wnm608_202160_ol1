@@ -41,7 +41,7 @@
 						<div class="checkout-detail-product card soft">
 							<figure class="figure">
 								<a href="product.php?id=2">
-									<img src="img/img-1.jpg" alt="plant">
+									<img src="img/1.png" alt="plant">
 								</a>
 							</figure>
 
@@ -64,7 +64,7 @@
 						<div class="checkout-detail-product card soft">
 							<figure class="figure">
 								<a href="product.php?id=3">
-									<img src="img/img-1.jpg" alt="plant">
+									<img src="img/2.png" alt="plant">
 								</a>
 							</figure>
 
@@ -87,7 +87,7 @@
 						<div class="checkout-detail-product card soft">
 							<figure class="figure">
 								<a href="product.php?id=4">
-									<img src="img/img-1.jpg" alt="plant">
+									<img src="img/3.png" alt="plant">
 								</a>
 							</figure>
 
