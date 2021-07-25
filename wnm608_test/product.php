@@ -20,8 +20,8 @@
 				</div>
 
 				<div class="product-description-container">
-					<h2>Dessert <?=$_GET['id']; ?></h2>
-					<h3>$9.99</h3>
+					<h2><?=$_GET['name']; ?></h2>
+					<h3><?=$_GET['price']; ?></h3>
 					<hr size="1px" width="100%" color="#f1f1f1">
 
 					<h4>Description</h4>
@@ -49,8 +49,8 @@
 						</a>
 
 						<figcaption>
-							<div>product name</div>
-							<div>$9.99</div>
+							<div>Special Mango Juice Sago & Pomelo w.Mango Ice Crea</div>
+							<div>$7.45</div>
 						</figcaption>
 					</figure>
 				</div>
@@ -63,8 +63,8 @@
 						</a>
 
 						<figcaption>
-							<div>product name</div>
-							<div>$9.99</div>
+							<div>Snow White Mango Juice w.Sago & Pomelo</div>
+							<div>$6.45</div>
 						</figcaption>
 					</figure>
 				</div>
@@ -77,8 +77,8 @@
 						</a>
 
 						<figcaption>
-							<div>product name</div>
-							<div>$9.99</div>
+							<div>Mango Juice w.Glutinous Rice Ball</div>
+							<div>$6.95</div>
 						</figcaption>
 					</figure>
 				</div>
@@ -90,8 +90,8 @@
 						</a>
 
 						<figcaption>
-							<div>product name</div>
-							<div>$9.99</div>
+							<div>Mango Juice w.Watermelon & Rice Ball</div>
+							<div>$6.95</div>
 						</figcaption>
 					</figure>
 				</div>
