@@ -59,7 +59,7 @@
 				<div class="col-xs-12 col-md-3">
 					<figure class="figure card soft">
 						<a href="product.php?id=2">
-							<img src="img/img-1.jpg" alt="">
+							<img src="img/1.png" alt="">
 						</a>
 
 						<figcaption>
@@ -73,7 +73,7 @@
 				<div class="col-xs-12 col-md-3">
 					<figure class="figure card soft">
 						<a href="product.php?id=3">
-							<img src="img/img-1.jpg" alt="">
+							<img src="img/2.png" alt="">
 						</a>
 
 						<figcaption>
@@ -86,7 +86,7 @@
 				<div class="col-xs-12 col-md-3">
 					<figure class="figure card soft">
 						<a href="product.php?id=4">
-							<img src="img/img-1.jpg" alt="">
+							<img src="img/3.png" alt="">
 						</a>
 
 						<figcaption>
