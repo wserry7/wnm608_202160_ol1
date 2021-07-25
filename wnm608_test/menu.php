@@ -23,8 +23,8 @@
 					</a>
 					
 					<figcaption>
-						<div>product 1</div>
-						<div>$9.99</div>
+						<div>Special Mango Juice Sago & Pomelo w.Mango Ice Crea</div>
+						<div>$7.45</div>
 					</figcaption>
 				</figure>
 			</div>
@@ -36,8 +36,8 @@
 					</a>
 					
 					<figcaption>
-						<div>product 2</div>
-						<div>$9.99</div>
+						<div>Snow White Mango Juice w.Sago & Pomelo</div>
+						<div>$6.45</div>
 					</figcaption>
 				</figure>
 			</div>
@@ -49,8 +49,8 @@
 					</a>
 					
 					<figcaption>
-						<div>product 3</div>
-						<div>$9.99</div>
+						<div>Mango Juice w.Glutinous Rice Ball</div>
+						<div>$6.95</div>
 					</figcaption>
 				</figure>
 			</div>
@@ -62,8 +62,8 @@
 					</a>
 					
 					<figcaption>
-						<div>product 4</div>
-						<div>$9.99</div>
+						<div>Mango Juice w.Watermelon & Rice Ball</div>
+						<div>$6.95</div>
 					</figcaption>
 				</figure>
 			</div>
@@ -75,8 +75,8 @@
 					</a>
 					
 					<figcaption>
-						<div>product 5</div>
-						<div>$9.99</div>
+						<div>Snow white juice W. Durian and black rice</div>
+						<div>$8.45</div>
 					</figcaption>
 				</figure>
 			</div>
@@ -88,8 +88,98 @@
 					</a>
 					
 					<figcaption>
-						<div>product 6</div>
-						<div>$9.99</div>
+						<div>Snow White Juice w.Mango and Black Rice</div>
+						<div>$7.45</div>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+	
+				<div class="col-xs-12 col-md-3">
+				<figure class="figure card soft">
+					<a href="product.php?id=7">
+						<img src="img/img-1.jpg" alt="plant">
+					</a>
+					
+					<figcaption>
+						<div>Triple Ice Cream Delight</div>
+						<div>$6.45</div>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+
+			<div class="col-xs-12 col-md-3">
+				<figure class="figure card soft">
+					<a href="product.php?id=8">
+						<img src="img/img-1.jpg" alt="plant">
+					</a>
+					
+					<figcaption>
+						<div>Mango Sundae</div>
+						<div>$6.95</div>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+
+			<div class="col-xs-12 col-md-3">
+				<figure class="figure card soft">
+					<a href="product.php?id=9">
+						<img src="img/img-1.jpg" alt="plant">
+					</a>
+					
+					<figcaption>
+						<div>Snow White Juice w.Ice Cream</div>
+						<div>$6.95</div>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+
+			<div class="col-xs-12 col-md-3">
+				<figure class="figure card soft">
+					<a href="product.php?id=10">
+						<img src="img/img-1.jpg" alt="plant">
+					</a>
+					
+					<figcaption>
+						<div>Mixed Fresh Fruit w.Basil Seed</div>
+						<div>$7.45</div>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+
+			<div class="col-xs-12 col-md-3">
+				<figure class="figure card soft">
+					<a href="product.php?id=11">
+						<img src="img/img-1.jpg" alt="plant">
+					</a>
+					
+					<figcaption>
+						<div>Brown Suger Lemon Kumquat</div>
+						<div>$5.5</div>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+
+			<div class="col-xs-12 col-md-3">
+				<figure class="figure card soft">
+					<a href="product.php?id=12">
+						<img src="img/img-1.jpg" alt="plant">
+					</a>
+					
+					<figcaption>
+						<div>Mango Agar</div>
+						<div>$5</div>
 					</figcaption>
 				</figure>
 			</div>
