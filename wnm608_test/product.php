@@ -32,6 +32,16 @@
 					<div class="form-control">	
 						<input type="number" placeholder="1" class="form-input">
 					</div>	
+					
+					<div class="form-select">
+							<select id="product-format" name="sweetness">
+								<option>0%</option>
+								<option>25%</option>
+								<option>50%</option>
+								<option>75%</option>
+								<option>100%</option>
+							</select>
+						</div>
 
 					<button class="btn-style-1 btn-1" onclick="location.href='cart.php'">
 						Add to Cart
