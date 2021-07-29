@@ -34,13 +34,14 @@
 					</div>	
 					
 					<div class="form-select">
-							<p>Sweetness</p>
+						<p>Sweetness</p>
+						<select id="product-format" name="product-format">
 								<option>0%</option>
 								<option>25%</option>
 								<option>50%</option>
 								<option>75%</option>
 								<option>100%</option>
-							
+						</select>
 						</div>
 
 					<button class="btn-style-1 btn-1" onclick="location.href='cart.php'">
