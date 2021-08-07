@@ -23,11 +23,11 @@
 							</figure>
 
 							<div class="checkout-detail-text">
-								Product 1
+								Special Mango Juice Sago & Pomelo w.Mango Ice Crea
 							</div>
 
 							<div class="checkout-detail-text">
-								$9.99
+								$7.45
 							</div>
 
 							<div class="checkout-detail-text">
@@ -41,16 +41,16 @@
 						<div class="checkout-detail-product card soft">
 							<figure class="figure">
 								<a href="product.php?id=2">
-									<img src="img/img-1.jpg" alt="plant">
+									<img src="img/1.png" alt="plant">
 								</a>
 							</figure>
 
 							<div class="checkout-detail-text">
-								Product 2
+								Snow White Mango Juice w.Sago & Pomelo
 							</div>
 
 							<div class="checkout-detail-text">
-								$9.99
+								$6.45
 							</div>
 
 							<div class="checkout-detail-text">
@@ -64,16 +64,16 @@
 						<div class="checkout-detail-product card soft">
 							<figure class="figure">
 								<a href="product.php?id=3">
-									<img src="img/img-1.jpg" alt="plant">
+									<img src="img/2.png" alt="plant">
 								</a>
 							</figure>
 
 							<div class="checkout-detail-text">
-								Product 3
+								Mango Juice w.Glutinous Rice Ball
 							</div>
 
 							<div class="checkout-detail-text">
-								$9.99
+								$6.95
 							</div>
 
 							<div class="checkout-detail-text">
@@ -87,16 +87,16 @@
 						<div class="checkout-detail-product card soft">
 							<figure class="figure">
 								<a href="product.php?id=4">
-									<img src="img/img-1.jpg" alt="plant">
+									<img src="img/3.png" alt="plant">
 								</a>
 							</figure>
 
 							<div class="checkout-detail-text">
-								Product 4
+								Mango Juice w.Watermelon & Rice Ball
 							</div>
 
 							<div class="checkout-detail-text">
-								$9.99
+								$6.95
 							</div>
 
 							<div class="checkout-detail-text">

@@ -20,8 +20,8 @@
 				</div>
 
 				<div class="product-description-container">
-					<h2>Dessert <?=$_GET['id']; ?></h2>
-					<h3>$9.99</h3>
+					<h2><?=$_GET['name']; ?></h2>
+					<h3><?=$_GET['price']; ?></h3>
 					<hr size="1px" width="100%" color="#f1f1f1">
 
 					<h4>Description</h4>
@@ -32,6 +32,17 @@
 					<div class="form-control">	
 						<input type="number" placeholder="1" class="form-input">
 					</div>	
+					
+					<div class="form-select">
+						<p>Sweetness</p>
+						<select id="product-format" name="product-format">
+								<option>0%</option>
+								<option>25%</option>
+								<option>50%</option>
+								<option>75%</option>
+								<option>100%</option>
+						</select>
+						</div>
 
 					<button class="btn-style-1 btn-1" onclick="location.href='cart.php'">
 						Add to Cart
@@ -43,55 +54,55 @@
 			<h3>Similar Desserts</h3>
 			<div class="grid gap">
 				<div class="col-xs-12 col-md-3">
-					<figure class="figure card soft">
+					<figure class="figure card soft menu-item">
 						<a href="product.php?id=1">
 							<img src="img/img-1.jpg" alt="">
 						</a>
 
 						<figcaption>
-							<div>product name</div>
-							<div>$9.99</div>
+							<div>Special Mango Juice Sago & Pomelo w.Mango Ice Crea</div>
+							<div>$7.45</div>
 						</figcaption>
 					</figure>
 				</div>
 			
 
 				<div class="col-xs-12 col-md-3">
-					<figure class="figure card soft">
+					<figure class="figure card soft menu-item">
 						<a href="product.php?id=2">
-							<img src="img/img-1.jpg" alt="">
+							<img src="img/1.png" alt="">
 						</a>
 
 						<figcaption>
-							<div>product name</div>
-							<div>$9.99</div>
+							<div>Snow White Mango Juice w.Sago & Pomelo</div>
+							<div>$6.45</div>
 						</figcaption>
 					</figure>
 				</div>
 				
 
 				<div class="col-xs-12 col-md-3">
-					<figure class="figure card soft">
+					<figure class="figure card soft menu-item">
 						<a href="product.php?id=3">
-							<img src="img/img-1.jpg" alt="">
+							<img src="img/2.png" alt="">
 						</a>
 
 						<figcaption>
-							<div>product name</div>
-							<div>$9.99</div>
+							<div>Mango Juice w.Glutinous Rice Ball</div>
+							<div>$6.95</div>
 						</figcaption>
 					</figure>
 				</div>
 
 				<div class="col-xs-12 col-md-3">
-					<figure class="figure card soft">
+					<figure class="figure card soft menu-item">
 						<a href="product.php?id=4">
-							<img src="img/img-1.jpg" alt="">
+							<img src="img/3.png" alt="">
 						</a>
 
 						<figcaption>
-							<div>product name</div>
-							<div>$9.99</div>
+							<div>Mango Juice w.Watermelon & Rice Ball</div>
+							<div>$6.95</div>
 						</figcaption>
 					</figure>
 				</div>
