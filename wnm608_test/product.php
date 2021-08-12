@@ -11,17 +11,47 @@
 	
 	<?php include "parts/navbar.php"; ?>	
 
+	<?php
+		$servername = "hellohammers.com";
+		$username = "wk6wojc3kgy4";
+		$password = "sotMep-qacti3-cechir";
+
+		// Create connection
+		$conn = new mysqli($servername, $username, $password);
+
+		// Check connection
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		}
+		
+		$sql = "SELECT id, name, price, quantity, menu_category, thumbnail, discount_percentage FROM dessertshop.products WHERE id = '" . $_GET['id'] . "'";
+		$result = $conn->query($sql);
+
+		$name = '';
+		$price = '';
+		$quantity = 0;
+		$thumbnail = '';
+		if ($result->num_rows > 0) {
+			// output data of each row
+			while($row = $result->fetch_assoc()) {
+				$name = $row["name"];
+				$price = $row["price"];
+				$quantity = $row["quantity"];
+				$thumbnail = $row["thumbnail"];
+			}
+		}
+	?>
 
 	<div class="container">
 		<div class="page-container">
 			<div class="display-flex flex-wrap">	
 				<div class="product-img-container">	
-					<img src="img/img-1.jpg" class="product-img" alt="">
+					<img src="img/<?= $thumbnail ?>" class="product-img" alt="">
 				</div>
 
 				<div class="product-description-container">
-					<h2><?=$_GET['name']; ?></h2>
-					<h3><?=$_GET['price']; ?></h3>
+					<h2><?=$name; ?></h2>
+					<h3>$<?=$price; ?></h3>
 					<hr size="1px" width="100%" color="#f1f1f1">
 
 					<h4>Description</h4>
@@ -30,7 +60,7 @@
 
 					<p>Quantity</p>
 					<div class="form-control">	
-						<input type="number" placeholder="1" class="form-input">
+						<input type="number" class="form-input" value=<?=$quantity; ?>>
 					</div>	
 					
 					<div class="form-select">

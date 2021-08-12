@@ -13,7 +13,31 @@
 
 <body>
 	
-	<?php include "parts/navbar.php"; ?>	
+	<?php include "parts/navbar.php"; ?>
+	<?php
+		$servername = "hellohammers.com";
+		$username = "wk6wojc3kgy4";
+		$password = "sotMep-qacti3-cechir";
+
+		// Create connection
+		$conn = new mysqli($servername, $username, $password);
+
+		// Check connection
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		}
+		
+		$sql = "SELECT id, name, price, quantity, menu_category, thumbnail, discount_percentage FROM dessertshop.products";
+		$result = $conn->query($sql);
+
+		// if ($result->num_rows > 0) {
+		// 	while($row = $result->fetch_assoc()) {
+		// 		echo "id: " . $row["id"]. " - Name: " . $row["name"]. " " . $row["price"]. "<br>";
+		// 	}
+		// } else {
+		// 	echo "0 results";
+		// }
+	?>
 
 	<div class="container page-container">
 		<div class="display-flex flex-wrap">
@@ -54,7 +78,23 @@
 				</div>
 
 		<div class="grid gap">
-			<div class="col-xs-12 col-md-3">
+			<?php while($row = $result->fetch_assoc()) { ?>
+				<div class="col-xs-12 col-md-3">
+				<figure class="figure card soft menu-item">
+					<a href="product.php?id=<?php echo $row["id"]?>">
+						<img src="img/<?php echo $row["thumbnail"]?>" alt="plant">
+					</a>
+					
+					<figcaption>
+						<div><?php echo $row["name"] ?></div>
+						<div><?php echo $row["price"] ?></div>
+					</figcaption>
+				</figure>
+			</div>
+
+			<?php } ?>
+
+			<!-- <div class="col-xs-12 col-md-3">
 				<figure class="figure card soft menu-item">
 					<a href="product.php?id=1">
 						<img src="img/img-1.jpg" alt="plant">
@@ -214,7 +254,7 @@
 						<div>$5</div>
 					</figcaption>
 				</figure>
-			</div>
+			</div> -->
 		</div>
 	</div>
 
