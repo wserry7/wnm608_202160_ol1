@@ -10,6 +10,7 @@
 				<li><a href="menu.php">MENU</a></li>
 				<li><a href="cart.php">CART</a></li>
 				<li><a href="about.php">ABOUT US</a></li>
+				<li><a href="admin.php">ADMIN</a></li>
 			</ul>
 		</div>
 	</div>
